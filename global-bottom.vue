@@ -1,7 +1,7 @@
 <template>
   <div class="brand-footer" v-if="$slidev?.nav?.currentPage > 1">
     <span class="brand-left">
-      <img src="/opentide-logo.png" alt="OpenTide" class="brand-logo-img" />
+      <img src="/opentide-logo.png" alt="opentide" class="brand-logo-img" />
       <span class="sep">·</span>
       <span class="talk-name">{{ $slidev?.configs?.title || 'ConfTide' }}</span>
     </span>

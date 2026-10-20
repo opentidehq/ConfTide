@@ -75,12 +75,12 @@ Use inline in markdown: `<ComponentName />`. Available:
 | Component | Description |
 |-----------|-------------|
 | `BottleneckDiagram` | Funnel: CTI volume → bottleneck → detection trickle |
-| `EcosystemMap` | Hexagonal map: TVM/DOM/MDR around central OpenTide node |
+| `EcosystemMap` | Hexagonal map: TVM/DOM/MDR around central opentide node |
 | `PipelineFlow` | 5-stage pipeline: Intel → Model → Detect → Test → Deploy |
 | `DetectionSignals` | DOM tree: parent → 3 signal child nodes |
 | `AgentArchitecture` | Orbital diagram: agents orbiting orchestrator |
 | `TrustTriangle` | Triangle: Transparency ↔ Guardrails ↔ Traceability |
-| `OpenTideLogo` | Inline SVG logo mark |
+| `OpentideLogo` | Inline SVG logo mark |
 
 **Naming rule:** Never prefix components with `Si` — it conflicts with unplugin-icons' Simple Icons.
 

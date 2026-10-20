@@ -1,14 +1,14 @@
 ---
 theme: default
 layout: default
-title: "OpenTide - FIRST CTI 2026"
+title: "opentide - FIRST CTI 2026"
 info: |
-  ## OpenTide: Open Threat-Informed Detection Engineering
+  ## opentide: Open Threat-Informed Detection Engineering
   Bridging Threat Intelligence & Detection Engineering
 
   FIRST CTI 2026 · Amine Besson & Rémi Séguy
 author: Amine Besson & Rémi Séguy
-keywords: OpenTide,CTI,Detection Engineering,AgenTide
+keywords: opentide,CTI,Detection Engineering,AgenTide
 exportFilename: opentide-first-cti-2026
 download: true
 drawings:
@@ -22,7 +22,7 @@ fonts:
 ---
 
 <div class="flex flex-col items-center justify-center h-full text-center">
-  <img src="/opentide-banner.png" alt="OpenTide" class="w-72 mb-6 animate-float" />
+  <img src="/opentide-banner.png" alt="opentide" class="w-72 mb-6 animate-float" />
   <h1 class="!text-5xl !mb-2"><span class="text-white">Open</span><span class="text-gold">Tide</span></h1>
   <h3 class="!text-lg !text-[var(--ot-gold)] !font-semibold !mb-4">Open Threat-Informed Detection Engineering</h3>
   <p class="text-[var(--ot-gray-200)] text-sm mb-8">Bridging Threat Intelligence & Detection Engineering</p>

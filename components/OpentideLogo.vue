@@ -1,6 +1,6 @@
 <template>
   <div class="logo-container" :class="{ animate: animated }">
-    <img src="/opentide-banner.png" alt="OpenTide" class="logo-img" />
+    <img src="/opentide-banner.png" alt="opentide" class="logo-img" />
   </div>
 </template>
 

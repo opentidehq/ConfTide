@@ -1,6 +1,6 @@
 # ConfTide
 
-> OpenTide conference presentations — powered by [Slidev](https://sli.dev)
+> opentide conference presentations — powered by [Slidev](https://sli.dev)
 
 ## Talks
 

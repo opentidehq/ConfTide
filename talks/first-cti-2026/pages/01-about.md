@@ -25,7 +25,7 @@ Cyber Security Operations Centre protecting EU institutions' digital infrastruct
 
 <div class="pl-4">
 
-### OpenTide Origins
+### opentide Origins
 
 Born from **thousands of manhours** of real-world detection engineering at scale.
 
@@ -62,7 +62,7 @@ First presented at <strong>Hack.lu 2023</strong> & <strong>FIRST TC Amsterdam 20
 <div class="flex items-center gap-4">
   <span class="text-3xl font-black text-[rgba(245,197,24,0.40)] w-13 text-center">02</span>
   <div>
-    <h3 class="!m-0">OpenTide Framework</h3>
+    <h3 class="!m-0">opentide Framework</h3>
     <p class="!m-0 !mt-1 text-sm text-[var(--ot-gray-400)]">Reframing TTP intelligence into scalable detection workflows</p>
   </div>
 </div>

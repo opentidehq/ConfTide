@@ -1,13 +1,13 @@
 # ConfTide — Agent Context & Project Handbook
 
-> Multi-talk Slidev presentation monorepo for OpenTide conferences.
+> Multi-talk Slidev presentation monorepo for opentide conferences.
 > Deployed to GitHub Pages at `https://opentidehq.github.io/ConfTide/`.
 
 ---
 
 ## Project Overview
 
-**ConfTide** is a monorepo that houses conference presentations for OpenTide, built with [Slidev](https://sli.dev) v51. Each talk lives in `talks/<talk-slug>/` and shares a common design system (style.css, Vue components, layouts) from the project root. The first (and currently only) talk is **FIRST CTI 2026**.
+**ConfTide** is a monorepo that houses conference presentations for opentide, built with [Slidev](https://sli.dev) v51. Each talk lives in `talks/<talk-slug>/` and shares a common design system (style.css, Vue components, layouts) from the project root. The first (and currently only) talk is **FIRST CTI 2026**.
 
 ### Speakers & Affiliation
 
@@ -28,7 +28,7 @@ ConfTide/
 │   ├── BottleneckDiagram.vue      ← Funnel → Bottleneck → Trickle (SVG, animated)
 │   ├── DetectionSignals.vue       ← DOM → 3 signal nodes tree (SVG, animated)
 │   ├── EcosystemMap.vue           ← Hexagonal ecosystem with central node (SVG, animated)
-│   ├── OpenTideLogo.vue           ← Inline SVG logo mark
+│   ├── OpentideLogo.vue           ← Inline SVG logo mark
 │   ├── PipelineFlow.vue           ← Intel → Detect → Deploy pipeline (SVG, animated)
 │   └── TrustTriangle.vue          ← Three-vertex triangle (SVG, animated)
 ├── landing/
@@ -54,7 +54,7 @@ ConfTide/
 │       └── pages/                 ← Composable markdown slide pages
 │           ├── 01-about.md        ← About Us + Agenda
 │           ├── 02-widening-gap.md ← Part 1: The Widening Gap (4 slides)
-│           ├── 03-opentide.md     ← Part 2: OpenTide Framework (9 slides)
+│           ├── 03-opentide.md     ← Part 2: opentide Framework (9 slides)
 │           ├── 04-agentide.md     ← Part 3: AgenTide (9 slides)
 │           ├── 05-road-ahead.md   ← Part 4: Road Ahead + Closing (4 slides)
 │           └── 06-backup.md       ← Backup slides (2 slides)
@@ -163,7 +163,7 @@ The presentation has **22+ slides** organized in 4 parts + backup:
 |------|------|--------|-------|
 | — | `01-about.md` | 2 | About Us (EC CSOC, 50+ team, 60+ agencies) + Today's Agenda |
 | 1 | `02-widening-gap.md` | 4 | The Widening Gap: intelligence volume/speed/complexity vs team capacity |
-| 2 | `03-opentide.md` | 9 | OpenTide Framework: TVM, DOM, MDR objects + pipeline + CI/CD |
+| 2 | `03-opentide.md` | 9 | opentide Framework: TVM, DOM, MDR objects + pipeline + CI/CD |
 | 3 | `04-agentide.md` | 9 | AgenTide: AI agents, AGENTS.md directives, real PR examples, trust |
 | 4 | `05-road-ahead.md` | 4 | Road Ahead: Skills framework, community CTA, closing |
 | — | `06-backup.md` | 2 | Complete Object Model table + Tech Stack table |
@@ -175,7 +175,7 @@ All components are animated SVGs rendered inline. They use CSS animations (not J
 | Component | Used In | Description |
 |-----------|---------|-------------|
 | `BottleneckDiagram` | 02-widening-gap.md | Funnel showing CTI volume → bottleneck → detection trickle |
-| `EcosystemMap` | 03-opentide.md | Hexagonal map: TVM/DOM/MDR around central OpenTide node |
+| `EcosystemMap` | 03-opentide.md | Hexagonal map: TVM/DOM/MDR around central opentide node |
 | `PipelineFlow` | 03-opentide.md | 5-stage pipeline: Intel → Model → Detect → Test → Deploy |
 | `DetectionSignals` | 03-opentide.md | DOM tree: parent → 3 signal child nodes |
 | `AgentArchitecture` | 04-agentide.md | Orbital diagram: agents orbiting central orchestrator |
@@ -215,7 +215,7 @@ Landing page at `dist/index.html` links to individual talks.
 
 4. **Dev server cwd**: `npm run dev` must be run from the ConfTide project root. The script invokes `slidev talks/first-cti-2026/slides.md --open`.
 
-5. **No git remote yet**: The repo has not been pushed to GitHub. Create `OpenTideHQ/ConfTide` and push to trigger Pages deployment.
+5. **No git remote yet**: The repo has not been pushed to GitHub. Create `opentidehq/ConfTide` and push to trigger Pages deployment.
 
 ---
 
