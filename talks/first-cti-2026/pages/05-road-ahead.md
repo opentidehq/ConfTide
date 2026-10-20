@@ -89,7 +89,7 @@ applyTo: "Objects/Threat Vectors/**"
 <div class="glass-card text-center">
   <span class="text-3xl block mb-2">⭐</span>
   <h3>Star & Fork</h3>
-  <p class="text-sm">github.com/<strong class="text-gold">OpenTideHQ</strong></p>
+  <p class="text-sm">github.com/<strong class="text-gold">opentidehq</strong></p>
   <span class="badge badge-gold text-xs mt-2 inline-block">EUPL 1.2</span>
 </div>
 
@@ -103,7 +103,7 @@ applyTo: "Objects/Threat Vectors/**"
 <div class="glass-card text-center">
   <span class="text-3xl block mb-2">🤖</span>
   <h3>Try AgenTide</h3>
-  <p class="text-sm">Point Copilot coding agent at your OpenTide instance - <strong class="text-agent">AGENTS.md</strong> does the rest</p>
+  <p class="text-sm">Point Copilot coding agent at your opentide instance - <strong class="text-agent">AGENTS.md</strong> does the rest</p>
 </div>
 
 </div>
@@ -137,13 +137,13 @@ class: text-center
 ---
 
 <div>
-  <img src="/opentide-banner.png" alt="OpenTide" class="w-52 mx-auto mb-6 animate-float" />
+  <img src="/opentide-banner.png" alt="opentide" class="w-52 mx-auto mb-6 animate-float" />
   <h1 class="!text-4xl !mb-2"><span class="text-white">Open</span><span class="text-gold">Tide</span> + Agen<span class="text-agent">Tide</span></h1>
   <p class="text-[var(--ot-gray-200)] max-w-xl mx-auto mt-3">
     From unstructured threat intelligence to<br>
     <strong class="text-gold">deployed detections at machine speed</strong>
   </p>
-  <p class="text-[var(--ot-gold)] font-semibold mt-6 text-sm">github.com/OpenTideHQ</p>
+  <p class="text-[var(--ot-gold)] font-semibold mt-6 text-sm">github.com/opentidehq</p>
   <div class="mt-6">
     <p class="text-sm"><strong>Amine Besson</strong> & <strong>Rémi Séguy</strong></p>
     <p class="text-xs text-[var(--ot-gray-400)]">European Commission CSOC</p>

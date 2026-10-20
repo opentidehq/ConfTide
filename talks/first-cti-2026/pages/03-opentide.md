@@ -61,7 +61,7 @@ class: text-center
   </div>
   <div class="glass-card !p-5 text-center border-2 border-[var(--ot-gold)] min-w-40">
     <img src="/opentide-logo.png" class="w-12 mx-auto mb-2" />
-    <div class="text-gold font-black text-base">OpenTide</div>
+    <div class="text-gold font-black text-base">opentide</div>
     <div class="text-[11px] text-white/50 mt-1">EUPL 1.2 · CC-BY-SA 4.0</div>
   </div>
   <div class="flex flex-col gap-3">
@@ -322,7 +322,7 @@ layout: two-cols
 
 <div class="pl-4">
 
-### <span class="text-gold">OpenTide: Multi-Dimensional</span>
+### <span class="text-gold">opentide: Multi-Dimensional</span>
 
 <p class="text-xs mb-2">Coverage mapped per TVM → DOM → Signal → Rule</p>
 
